@@ -1,0 +1,17 @@
+import numpy
+
+def arrays(arr):
+    # complete this function
+    # use numpy.array
+    a=[arr]
+    l=[]
+    for i in range(len(a)):
+        l.append(a[i])
+    b=numpy.array(l,float)
+    
+    k=numpy.flip(b)
+    for c in k:
+        c
+    return c
+
+arr = input().strip().split(' ')
